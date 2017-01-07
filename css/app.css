@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6, p, .callout {
+  margin: 10px 0;
+}
+p {
+  margin: 25px 0;
+}
+.header {
+  margin: 20px auto;
+}
+ul.nav {
+  list-style: none;
+  margin-top: 50px;
+}
+ul.nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #000;
+  display: inline-block;
+  position: relative;
+}
+a:after {
+  content: ' ';
+  width: 100%;
+  height: 4px;
+  display: inline-block;
+  background-color: rgba(255, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+a:hover {
+  color: #000;
+}
+a:hover:after {
+  background-color: transparent;
+}
+a.title:after {
+  margin-bottom: 10px;
+}
+a.title h1 { margin: 20px 0 12px; }
+
+.callout h3 {
+  width: 100%;
+  color: #ffffff;
+  background-color: darkblue;
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  background: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+body .content {
+  background-color: #ffffff;
+  padding: 0 20px 50px;
+  margin: 20px auto 40px;
+}
+body #videoModal.reveal {
+  top: 0 !important;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
