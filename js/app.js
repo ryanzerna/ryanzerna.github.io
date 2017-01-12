@@ -10,8 +10,6 @@ jQuery(function($){
       setTimeout(function() {
         $('#videoModal').foundation('close');
       }, 27500);
-    } else {
-      $('#videoModal').remove();
     }
   });
 });
