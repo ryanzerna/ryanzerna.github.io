@@ -5,7 +5,7 @@ jQuery(function($){
     $(document).foundation();
 
     if(!Cookies.get('video')) {
-      Cookies.set('video', 'true', { expires: 365, path: '' });
+      Cookies.set('video', 'true', { expires: 1, path: '' });
       $('#videoModal').foundation('open');
       setTimeout(function() {
         $('#videoModal').foundation('close');
