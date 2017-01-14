@@ -35,6 +35,9 @@ a:after {
   bottom: 0;
   left: 0;
 }
+a.tilde:after {
+  content: none;
+}
 a:hover {
   color: #000;
 }
